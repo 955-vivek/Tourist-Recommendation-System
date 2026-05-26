@@ -1,0 +1,3 @@
+const bcrypt = require('bcrypt');
+console.log(bcrypt.hashSync("123456", 10));
+// This will spit out something like: $2b$10$wI8...
